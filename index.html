@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .Navigation{
+            background-color: black;
+            display: inline-block;
+            border: 12px grey ;
+            font-size: medium; 
+            padding: 0;  
+            margin: 0;
+            
+        }
+        ul{
+            list-style-type: none;
+            overflow: hidden;
+        }
+        li{
+            float: left;
+        }
+        
+        li a{
+            margin: 5px;
+            padding: 5px 5px;
+            display: inline-block;
+            color: white;
+            text-decoration: none;
+            text-align: center;
+
+        }
+        
+        a:hover:not(.active){
+            background-color: grey;
+        }
+    </style>
+</head>
+<body>
+    <div class="Navigation">
+        <ul>
+            <li><a href="#Home">Home</a></li>
+            <li><a href="#contact Us">Contact Us</a></li>
+            <li><a href="#About Us">About Us</a></li>
+            <li><a href="#Services">Services</a></li>
+        </ul>
+    </div>
+</body>
+</html>
